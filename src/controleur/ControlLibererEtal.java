@@ -23,5 +23,9 @@ public class ControlLibererEtal {
 		String[] donneesEtal = null;
 		return donneesEtal;
 	}
+	
+	public Boolean isVendeur(String nomVendeur) {
+		return controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur)!=null;
+	}
 
 }

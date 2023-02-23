@@ -11,6 +11,9 @@ public class BoundaryLibererEtal {
 
 	public void libererEtal(String nomVendeur) {
 		//TODO a completer
+		if (!controlLibererEtal.isVendeur(nomVendeur)) {
+			
+		}
 	}
 
 }
