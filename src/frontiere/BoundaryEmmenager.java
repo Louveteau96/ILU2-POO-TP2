@@ -27,7 +27,6 @@ public class BoundaryEmmenager {
 					break;
 
 				case 2:
-					//TODO a completer
 					emmenagerVillageois(nomVisiteur);
 					break;
 

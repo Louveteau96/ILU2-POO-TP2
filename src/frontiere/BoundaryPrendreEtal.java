@@ -47,7 +47,8 @@ public class BoundaryPrendreEtal {
 		}
 	}
 
-	private void installerVendeur(String nomVendeur) {
-		//TODO a completer
-	}
+//Le TP dit de faire la fonction prendreEtal pas installerVendeur c'est la fonction du village
+//	private void installerVendeur(String nomVendeur) {
+//		//TODO a completer
+//	}
 }
