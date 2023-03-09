@@ -15,10 +15,9 @@ public class ControlAcheterProduit {
 		this.controlTrouverEtalVendeur = controlTrouverEtalVendeur;
 	}
 
-	//TODO a completer
 	
 	public Boolean existVendeur(String produit) {
-		return!(village.rechercherVendeursProduit(produit)==null);
+		return village.rechercherVendeursProduit(produit) != null;
 	}
 	
 	public String[] vendeursProduit(String produit) {
@@ -37,6 +36,10 @@ public class ControlAcheterProduit {
 			vendeursProduit[j]=vendeurs[j];
 		}
 		return vendeursProduit;
+	}
+	
+	public Boolean acheteurVillageois(String nom_Acheteur) {
+		return controlVerifierIdentite.verifierIdentite(nom_Acheteur);
 	}
 	
 	public int qtyVendeur(String nomVendeur) {
