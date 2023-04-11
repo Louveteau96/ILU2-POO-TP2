@@ -67,7 +67,7 @@ public class BoundaryEmmenager {
 				System.out.println(erreurePotion);
 			}
 		}
-		controlEmmenager.ajouterDuide(nomVisiteur, forceUtilisateur, potionMin, potionMax);
+		controlEmmenager.ajouterDruide(nomVisiteur, forceUtilisateur, potionMin, potionMax);
 	}
 	
 	

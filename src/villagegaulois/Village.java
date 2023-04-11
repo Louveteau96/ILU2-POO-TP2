@@ -93,6 +93,10 @@ public class Village {
 	public boolean rechercherEtalVide() {
 		return marche.trouverEtalLibre() != -1;
 	}
+	
+	public int numEtalVide() {
+		return marche.trouverEtalLibre();
+	}
 
 	public Gaulois[] rechercherVendeursProduit(String produit) {
 		Gaulois[] vendeurs = null;
